@@ -1,0 +1,107 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User shopping for the Tshirts",
+        "description": "",
+        "id": "to-validate-the-myntra-web-application;user-shopping-for-the-tshirts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17634907800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the web browser",
+            "match": {
+              "location": "MyntraReg.toLaunchTheWebBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14175683100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To open the url of myntra website",
+            "match": {
+              "location": "MyntraReg.toOpenTheUrlOfMyntraWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16173049800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To type and search the Tshirt product",
+            "match": {
+              "location": "MyntraReg.toTypeAndSearchTheTshirtProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24345313700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To select the first product and select M size",
+            "match": {
+              "location": "MyntraReg.toSelectTheFirstProductAndSelectMSize()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4926994600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click Add to bag button",
+            "match": {
+              "location": "MyntraReg.toClickAddToBagButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17244726800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "TO click the bag icon",
+            "match": {
+              "location": "MyntraReg.toClickTheBagIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3894114900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Take screenshot of the payment page",
+            "match": {
+              "location": "MyntraReg.takeScreenshotOfThePaymentPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the myntra web application",
+    "description": "",
+    "id": "to-validate-the-myntra-web-application",
+    "keyword": "Feature",
+    "uri": "featurefiles/Intreview.feature",
+    "tags": []
+  }
+]
